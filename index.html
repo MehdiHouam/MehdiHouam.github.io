@@ -12,7 +12,7 @@
 <body>
     <input type="radio" id="chk1" name="a1" style="display: none;">
     <input type="radio" id="chk2" name="a1" style="display: none;">
-    <h1>Welcome to Mehdi Houam Page</h1>
+    <h1>Welcome to Mehdi Houam Home</h1>
     <div class="box">
 
         <div class="a">
@@ -21,27 +21,73 @@
         </div>
         <div class="b">
             <form action="#" class="frm">
-                <h6 class="title">PHP</h6>
-                <input type="button" value="TP Formation" class="btn" onclick="window.location='PHP/TP_PHP_Formation';">
-                <input type="button" value="TP Annonce" class="btn" onclick="window.location='www.google.fr';">
-               <label for="chk1" class="btm">JS</label>
+                <h6 class="title">Home</h6>
+                <input type="button" value="Facebook" class="btn" id="link1">
+                <input type="button" value="SnapChat" class="btn" id="link2">
+                <input type="button" value="Apple Music" class="btn" id="link3">
+                <input type="button" value="Paypal Me" class="btn" id="link4">
+                <input type="button" value="GitHub" class="btn" id="link5">
+                <input type="button" value="Learn to code" class="btn" id="link6">
+                <label for="chk1" class="btm">JS</label>
             </form>
         </div>
         <div class="c">
             <form action="#" class="frm">
                 <h6 class="title">JS</h6>
-                <input type="button" value="TP Race" class="btn" onclick="window.location='JavaScript/TP-Race/index.html';">
-                <input type="button" value="TP Quizz" class="btn" onclick="window.location='JavaScript/TP-Quizz/index.html';">
-                <input type="button" value="TP Pokemon" class="btn" onclick="window.location='JavaScript/TP-Pokemon/index.html';">
-                <input type="button" value="TP Formulaire" class="btn" onclick="window.location='JavaScript/TP-Formulaire/index.html';">
-                <input type="button" value="TP Ajax" class="btn" onclick="window.location='JavaScript/TP-AJAX/index.html';">
-                <input type="button" value="TP Cartes" class="btn" onclick="window.location='JavaScript/TP-Cartes/index.html';">
-                <label for="chk2" class="btm">PHP</label>
+
+                <input type="button" value="TP Race" class="btn"
+                    onclick="window.open('JavaScript/TP-Race/index.html', '_blank')">
+
+                <input type="button" value="TP Quizz" class="btn"
+                    onclick="window.open('JavaScript/TP-Quizz/index.html', '_blank')">
+
+
+                <input type="button" value="TP Pokemon" class="btn"
+                    onclick="window.open('JavaScript/TP-Pokemon/index.html', '_blank')">
+
+                <input type="button" value="TP Formulaire" class="btn"
+                    onclick="window.open('JavaScript/TP-Formulaire/index.html', '_blank')">
+
+                <input type="button" value="TP Ajax" class="btn"
+                    onclick="window.open('JavaScript/TP-AJAX/index.html', '_blank')">
+
+                <input type="button" value="TP Cartes" class="btn"
+                    onclick="window.open('JavaScript/TP-Cartes/index.html', '_blank')">
+
+                <label for="chk2" class="btm">Home</label>
             </form>
         </div>
         <div class="d"></div>
         <div class="e"></div>
     </div>
+    <script>
+        var lien1 = document.getElementById("link1");
+        var lien2 = document.getElementById("link2");
+        var lien3 = document.getElementById("link3");
+        var lien4 = document.getElementById("link4");
+        var lien5 = document.getElementById("link5");
+        var lien6 = document.getElementById("link6");
+
+
+        lien1.addEventListener("click", function () {
+            window.open("https://www.facebook.com/chat.sauvage.35", "_blank");
+        });
+        lien2.addEventListener("click", function () {
+            window.open("https://www.snapchat.com/add/mihawkmh", "_blank");
+        });
+        lien3.addEventListener("click", function () {
+            window.open("https://music.apple.com/profile/MehdiHouam", "_blank");
+        });
+        lien4.addEventListener("click", function () {
+            window.open("https://www.paypal.me/OhhMihawk", "_blank");
+        });
+        lien5.addEventListener("click", function () {
+            window.open("https://mehdihouam.github.io/", "_blank");
+        });
+        lien6.addEventListener("click", function () {
+            window.open("https://getmimo.com/invite/3gdb73", "_blank");
+        });
+    </script>
 </body>
 
 </html>
