@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulair</title>
+</head>
+
+<body>
+    <main>
+        <form action="#" class="col-6 m-auto">
+            <div class="border rounded">
+                <div class="w-100 text-center">
+                    <h1>C'est mon genre</h1>
+                    <img id="profil" src="img/utilisateur.png" width="100" height="100" alt="">
+                </div>
+
+                <div class="col-8  m-auto">
+                    <p class="col-8">Qui ete vous ?</p>
+                    <label class="col-5" for="nom">Nom:</label>
+                    <input class="col-5" type="text" placeholder="NOM" id="nom">
+                    <br>
+                    <label class="col-5" for="prenom">Prenom:</label>
+                    <input class="col-5" type="text" placeholder="Prénom" id="prenom">
+                    <br>
+                    <label class="col-5" for="datedenaissance">Date de Naissance:</label>
+                    <input class="col-5" type="date" placeholder="Date de Naissance" id="datedenaissance">
+                    <br>
+                    <label class="col-5" for="email">Email:</label>
+                    <input class="col-5" type="email" placeholder="Email" id="email">
+                    <p class="col-8 mt-3">Quel est votre genre</p>
+                </div>
+
+                <div class="w-100 text-center">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="RadioHomme" checked name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="RadioHomme">Homme</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="RadioFemme" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="RadioFemme">Femme</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="RadioMartien" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="RadioMartien">Martien</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="RadioAutre" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="RadioAutre">Autre</label>
+                    </div>
+                    <div class="mt-5">
+                        <button class="btn btn-primary mr-5" id="confirmation">Confirmer</button>
+                        <button class="btn btn-primary" id="annuler" type="reset">Annuler</button>
+                    </div>
+                    <div id="texterror" class="mt-4 mb-0"></div>
+                </div>
+            </div>
+        </form>
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!--JQuery a mettre 1er important-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!--Popper a mettre 2nd important si utilisé-->
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!--Mon Script .JS a mettre 3eme important-->
+    <script src="js/script.js"></script>
+
+
+
+    <!--Effect Naige a mettre en fin important (ya 2 effect! mettre en commentaire 1 pour activer l'autre)-->
+    <script id="MehdiEffect2" type="text/javascript" src="https://click123.ca/dist/js/snow.js"></script>
+    <!-- <script id="MehdiEffect1" type="text/javascript" src="https://click123.ca/dist/js/heart.js"></script> -->
+</body>
+
+</html>

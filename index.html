@@ -5,31 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Mehdi Houam</title>
 </head>
 
 <body>
-    <h1>Welcome to my space</h1>
-    <aside>this is a description of my cloud</aside>
+    <input type="radio" id="chk1" name="a1" style="display: none;">
+    <input type="radio" id="chk2" name="a1" style="display: none;">
+    <h1>Welcome to Mehdi Houam Page</h1>
+    <div class="box">
 
-    <p>please dont try to hakc or you you will be hakced</p>
-
-    <button>DONT CLICK HERE ! ! !</button>
-
-    <br><br><br>
-    <input type="file" name="client-file" id="get-files" multiple />
-
-
-    <script>
-        var inp = document.getElementById("get-files");
-        // Access and handle the files 
-
-        for (i = 0; i < inp.files.length; i++) {
-            let file = inp.files[i];
-            // do things with file
-        }
-    </script>
-    <button> <a href="JavaScript/index.php">Click HERE</a></button>
+        <div class="a">
+            <label for="chk1">PHP</label>
+            <label for="chk2" id="sup">JavaScript</label>
+        </div>
+        <div class="b">
+            <form action="#" class="frm">
+                <h6 class="title">PHP</h6>
+                <input type="button" value="TP Formation" class="btn" onclick="window.location='PHP/TP_PHP_Formation';">
+                <input type="button" value="TP Annonce" class="btn" onclick="window.location='PHP/TP-Annonce';">
+                <input type="button" value="TP Formation" class="btn" onclick="window.location='PHP/TP-formation';">
+                <input type="button" value="TP Membres" class="btn" onclick="window.location='PHP/TP-Membres';">
+                <input type="button" value="TP POO" class="btn" onclick="window.location='PHP/TP-POO/class_voiture.php';">
+                <label for="chk1" class="btm">JS</label>
+            </form>
+        </div>
+        <div class="c">
+            <form action="#" class="frm">
+                <h6 class="title">JS</h6>
+                <input type="button" value="TP Race" class="btn" onclick="window.location='JavaScript/TP-Race/index.html';">
+                <input type="button" value="TP Quizz" class="btn" onclick="window.location='JavaScript/TP-Quizz/index.html';">
+                <input type="button" value="TP Pokemon" class="btn" onclick="window.location='JavaScript/TP-Pokemon/index.html';">
+                <input type="button" value="TP Formulaire" class="btn" onclick="window.location='JavaScript/TP-Formulaire/index.html';">
+                <input type="button" value="TP CodePostal" class="btn" onclick="window.location='JavaScript/TP-CodePostal/index.html';">
+                <input type="button" value="TP Cartes" class="btn" onclick="window.location='JavaScript/TP-TP-Cartes/index.html';">
+                <label for="chk2" class="btm">PHP</label>
+            </form>
+        </div>
+        <div class="d"></div>
+        <div class="e"></div>
+    </div>
 </body>
 
 </html>
