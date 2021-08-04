@@ -1,0 +1,23 @@
+.container{
+    border: 2px solid black;
+    padding: 2%;
+    width: 60%;
+    text-align: center;
+}
+h4{
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 9%;
+}
+
+input[type="button"]{
+    width: 150px;
+    margin-right: 1%;
+}
+input{
+    margin-bottom: 1%;
+}
+input[type="text"]{
+    width: 80%;
+}
