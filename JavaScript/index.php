@@ -7,9 +7,8 @@
 	<title>Document</title>
 </head>
 <body>
-
 <?php
-echo "Hehe";
+echo "Here are our files";
 $path = ".";
 $dh = opendir($path);
 $i=1;
@@ -21,6 +20,5 @@ while (($file = readdir($dh)) !== false) {
 }
 closedir($dh);
 ?> 
-
 </body>
 </html>

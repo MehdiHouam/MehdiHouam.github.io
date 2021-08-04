@@ -1,0 +1,163 @@
+header>div>h2 {
+    font-family: 'PokemonSolid';
+    color: #D92637;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+button {
+    margin: 1%;
+}
+
+.derouler {
+    border: solid 4px black;
+    border-radius: 30%;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 150px;
+}
+
+#solo>img {
+    border: 5px black solid;
+    border-radius: 20px;
+    background-color: #D92637;
+    margin-bottom: 1%;
+    overflow: hidden;
+    width: 70%;
+}
+
+#titretestes {
+    font-family: 'PokemonSolid';
+    color: #D92637;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+@font-face {
+    font-family: "PokemonSolid";
+    src: url("RessourcesTP7/PokemonSolid.ttf");
+}
+
+.mehdihouam {
+    display: none;
+}
+
+.houammehdi {
+    display: inline-block;
+}
+
+#cadre {
+    height: 300px;
+}
+
+#photo img {
+    background-color: #D92637;
+}
+
+#photo {
+    margin: 0;
+    height: 500px;
+    overflow: auto;
+    padding-bottom: 1%;
+    border-radius: 20px;
+}
+
+.photoeditedfeux {
+    height: 350px !important;
+    background: linear-gradient(red, yellow) !important;
+}
+
+.photoeditedeau {
+    height: 350px !important;
+    background: linear-gradient(blue, white) !important;
+}
+
+.photoeditedterre {
+    height: 350px !important;
+    background: linear-gradient(brown, white) !important;
+}
+
+.photoeditedvent {
+    height: 350px !important;
+    background: linear-gradient(turquoise, white) !important;
+}
+
+.photoeditedevolution {
+    height: 350px !important;
+    background: linear-gradient(black, white) !important;
+}
+
+.elementfeuxss img {
+    background: #ee0979;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.elemtneauxs img {
+    background: #000046;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.elementterres img {
+    background: #333333;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.elementvents img {
+    background: #1f4037;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #99f2c8, #1f4037);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.elementevolutions img {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media screen and (max-width: 800px) {
+    #ButtonDeControle {
+        display: flex;
+        flex-direction: column;
+    }
+    #ButtonDeControle button {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+   header>div>p, header>div>hr{
+       display: none;
+   }
+   header h2{
+    margin-bottom: 5%;
+   }
+   #photo{
+    height: 500px !important;
+   }
+   #solo p, h3{
+    display: none;
+   }
+   #cadre {
+       margin-top: 2%;
+       height: 400px;
+   }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="js/script.js"></script> -->
+    <link rel="stylesheet" href="resultats.html">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="GET" action="resultats.html" id="maforminfo">
+        <div class="box">
+            <h1>FORMULAIR</h1>
+            <label for="Pseudo">Pseudonyme</label>
+            <input name="pseudoname" class="checkinput" type="text" id="Pseudo">
+            <!-- onmouseout="dwwm(event)" onmouseover="dwwm(event) onfocusout="myFunction()" onclick="dwwm()"  -->
+            <br>
+            <label for="Motdepasse">Mot de Passe)</label>
+            <input name="mdpname" class="checkinput" type="text" id="Motdepasse">
+            <br>
+            <label for="Confirmation">Confirmation</label>
+            <input name="Confirmationname" class="checkinput" type="text" id="Confirmation">
+            <br>
+            <label for="email">E-mail</label>
+            <input name="emailname" class="checkinput" type="text" id="email">
+            <label for="datedemande">Date de Naissance</label>
+            <input class="checkinput" type="date" id="datedemande" name="datedemande"min="1900-01-01" max="2021-05-25">
+            <br>
+            <div class="inputbutton">
+                <input type="button" id="checkenvoyer" value="Check">
+
+                <input type="reset" id="reseted" value="Reset">
+                <br>
+                <input type="submit" id="envoyer" value="Envoyer">
+            </div>
+        </div>
+        <br>
+        <!-- Span de verification envoyer -->
+        <div class="box2">
+            <h1>VERIFICATION</h1>
+            <span id="verificationPseudo">Pseudo: Non</span>
+            <br>
+            <span id="verificationMDP">Mdp: Non</span>
+            <br>
+            <span id="verificationconfirmation">Confirmation: Non</span>
+            <br>
+            <span id="verificationMail">Mail: Non</span>
+        </div>
+    </form>
+    <br>
+    <div id="alertebox">
+        <h3>Alerte</h3>
+        <span id="alertespan"></span>
+        <br>
+        <br>
+        <button onclick="alertebonjour()">OK</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
